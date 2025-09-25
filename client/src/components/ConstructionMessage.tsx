@@ -50,6 +50,20 @@ export default function ConstructionMessage({ className = '' }: ConstructionMess
           🚧 Em Breve • Coming Soon 🚧
         </span>
       </div>
+
+      {/* Contact Information */}
+      <div className="mt-8 p-6 bg-card/50 border border-card-border rounded-lg max-w-md mx-auto" data-testid="contact-info">
+        <h3 className="text-lg font-semibold text-foreground mb-3 font-[Poppins]">
+          Entre em Contato • Get in Touch
+        </h3>
+        <a 
+          href="mailto:contato@giannonefoods.com.br" 
+          className="text-primary hover:text-primary/80 font-[Inter] font-medium transition-colors duration-200"
+          data-testid="email-contact"
+        >
+          contato@giannonefoods.com.br
+        </a>
+      </div>
     </div>
   );
 }
