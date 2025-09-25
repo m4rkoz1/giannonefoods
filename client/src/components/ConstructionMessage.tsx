@@ -34,12 +34,12 @@ export default function ConstructionMessage({ className = '' }: ConstructionMess
       {/* Description */}
       <div className="space-y-4 max-w-2xl mx-auto">
         <p className="text-lg md:text-xl text-muted-foreground font-[Inter] leading-relaxed" data-testid="text-description">
-          Especializados na <span className="font-semibold text-primary">importação e distribuição de frutas congeladas</span> de alta qualidade.
+          Especializados na <span className="font-semibold text-primary">importação e distribuição</span> de produtos de alta qualidade.
           Em breve, nosso site estará pronto com nosso catálogo completo de produtos.
         </p>
         
         <p className="text-base md:text-lg text-muted-foreground font-[Inter] leading-relaxed" data-testid="text-description-en">
-          Specialized in <span className="font-semibold text-primary">importing and distributing high-quality frozen fruits</span>.
+          Specialized in <span className="font-semibold text-primary">importing and distributing</span> high-quality products.
           Soon, our website will be ready with our complete product catalog.
         </p>
       </div>
